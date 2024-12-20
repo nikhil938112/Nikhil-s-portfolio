@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color:hsl(243, 23%, 18%); */
+    /* color: white; */
+    position: relative;
+}
+.active-link {
+    color: red;  /* Change color when active */
+    font-weight: bold;  /* Make the link bold when active */
+  }
+  
+.navbar{
+    /* background-color: hsl(243, 23%, 18%); */
+    background-color: white;
+    position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        /* Add specific styles for .navbar here */
+        text-align: start;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .name-div{
+        text-align: start;
+        width: 100%;
+        padding:10px;
+
+    }
+}
+
+.active-link {
+    color: #1d4ed8;  /* Example of blue color for active link */
+    font-weight: bold;
+  }
+  

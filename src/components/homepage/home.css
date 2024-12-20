@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.homepage{
+    height: 100vh;
+    /* border-bottom:  1px solid #203942; */
+
+}
+
+@media screen and (max-width: 768px){
+    .homepage{
+        height: 100vh;
+    }
+    .homepage *{
+        padding: 5px;
+    }
+    .button-div{
+        margin-top: 1px;
+    }
+    .media-div{
+        display: flex;
+        gap:3px;
+    }
+}
+
+
+  
