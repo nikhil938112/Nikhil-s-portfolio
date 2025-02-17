@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 // Middleware to enable CORS
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000","https://nikhil-s-portfolio.onrender.com"],
     credentials: true,
   })
 );

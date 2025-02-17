@@ -27,9 +27,10 @@ function Contact() {
     setError("");
     setSuccess(false);
 
+    const baseUrl="https://nikhil-s-portfolio.onrender.com" // http://localhost:5173
     try {
       const response = await axios.post(
-        "http://localhost:5173/api/contactInfo",
+        `${baseUrl}/api/contactInfo`,
         formData
       );
 
