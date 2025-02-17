@@ -29,7 +29,7 @@ function Contact() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/contactInfo",
+        "http://localhost:5173/api/contactInfo",
         formData
       );
 
